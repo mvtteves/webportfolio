@@ -1,0 +1,124 @@
+* {
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+
+.nav {
+	background: #283618;
+}
+
+.nav-link {
+	font-family: Poppins;
+	font-weight: 400;
+	color: #B7B7A4;
+}
+
+.nav-link:hover {
+	color: #F0EFEB;
+}
+
+#landing {
+	background: #F0EFEB;
+}
+
+#landing h1 {
+	font-family: Poppins;
+	font-size: 48px;
+	font-weight: 900;
+	color: #283618;
+}
+
+#landing h3 {
+	font-family: Poppins;
+	font-size: 24px;
+	font-weight: 700;
+	color: #283618;	
+}
+
+#landing p {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 400;
+	color: #283618;	
+}
+
+#projects {
+	background: #D4D4D4;
+}
+
+#projects h1 {
+	font-family: Poppins;
+	font-size: 48px;
+	font-weight: 900;
+	color: #283618;
+}
+
+.carousel-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+#tools {
+	background: #F0EFEB;
+}
+
+#tools h1 {
+	font-family: Poppins;
+	font-size: 48px;
+	font-weight: 900;
+	color: #283618;
+}
+
+#tools h3 {
+	font-family: Poppins;
+	font-size: 27px;
+	font-weight: 700;
+	color: #283618;	
+}
+
+#contact {
+	background: linear-gradient(
+		rgba(40, 54, 24, 0.2),
+		rgba(40, 54, 24, 0.2)
+	),url(./images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#contact h1 {
+	font-family: Poppins;
+	font-size: 48px;
+	font-weight: 900;
+	color: #283618;
+}
+
+#form-col {
+	background: #F0EFEB;
+	color: #283618;
+}
+
+#form-col button {
+	background: #283618;
+	color: #F0EFEB;
+	padding: 5;
+}
+
+#mymodal modal-title, modal-body, button{
+	color: #283618;
+}
+
+#social {
+	height: 10;
+	width: 10;
+}
+
+#social > a {
+	margin: 5;
+}
+
+#footer {
+	background: #283618;
+	color: #B7B7A4;
+}
